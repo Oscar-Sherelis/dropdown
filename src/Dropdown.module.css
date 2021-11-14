@@ -1,0 +1,43 @@
+.faq_elements {
+  display: flex;
+  align-items: center;
+  padding: 16px 0 16px 30px;
+}
+
+.faq_item {
+  position: relative;
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+.faq_item:after {
+  display: block;
+  position: absolute;
+  left: 0%;
+  right: 85.29%;
+  top: 100%;
+  bottom: 0%;
+  content: "";
+  border: 1px solid #00adaa;
+  background-color: #00adaa;
+}
+
+.dropdown_text {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown_text:before {
+  counter-increment: counter;
+  content: counter(counter);
+  background: linear-gradient(180deg, #00a9a7 0%, #00ba89 100%);
+  padding: 2px 17px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin-right: 36px;
+}
