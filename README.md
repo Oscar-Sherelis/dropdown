@@ -1,6 +1,6 @@
 # Getting Started
 
-* After project downloaded in terminal cd to project location. In this case "my-app"
+* After project downloaded in terminal go to project location.
 * in terminal run "npm i"
 * After "npm run start" to run project
 
